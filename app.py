@@ -49,4 +49,4 @@ def predict(path):
 api.add_resource(PredictImage, '/predict')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(Debug = False, host = '0.0.0.0')
